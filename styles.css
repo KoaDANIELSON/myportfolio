@@ -16,12 +16,16 @@ header{
 }
 
 .logo img{
-    width: 40px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    position: static;
+    transform: none;
 }
 
 header h1{
     text-align: center;
-    color: #6879d0;
+    color: #000000;
     flex: 1;
     font: 50px "Times New Roman";
     font-weight:800;
@@ -45,11 +49,11 @@ header h1{
 }
 
 .nav-bar a{
-    color:#8579ff;
+    color:#000000;
 }
 
 .nav-bar .current{
-    color:#000000;
+    color:#ffffff;
 }
 
 a:link{
@@ -82,12 +86,11 @@ a:hover{
 }
 
 .content p{
-    color:#8579ff;
+    color:#000000;
 }
 
 .content .abtMeText{
-    color:brown;
-    text-decoration: underline;
+    color:rgb(0, 0, 0);
 }
 
 .list-aboutme{
